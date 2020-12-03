@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5c85de;
+      }
+
+      .cls-2 {
+        fill: #85a4e6;
+      }
+    </style>
+  </defs>
+  <title>Icon -组织-复杂版-24红</title>
+  <g id="复杂大型图标">
+    <g>
+      <rect class="cls-1" x="12" y="11" width="2" height="2"/>
+      <polygon class="cls-1" points="12 7 12 9 20 9 20 19 12 19 12 21 22 21 22 7 12 7"/>
+      <rect class="cls-1" x="12" y="15" width="2" height="2"/>
+      <rect class="cls-1" x="16" y="15" width="2" height="2"/>
+      <rect class="cls-1" x="16" y="11" width="2" height="2"/>
+    </g>
+    <path class="cls-2" d="M2,3V21H12V3ZM6,19H4V17H6Zm0-4H4V13H6Zm0-4H4V9H6ZM6,7H4V5H6Zm4,12H8V17h2Zm0-4H8V13h2Zm0-4H8V9h2Zm0-4H8V5h2Z"/>
+  </g>
+</svg>

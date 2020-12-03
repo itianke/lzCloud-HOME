@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        opacity: 0.54;
+      }
+    </style>
+  </defs>
+  <title>Icon -购物车 - 24</title>
+  <g id="系统图标">
+    <path class="cls-1" d="M9.1,14h7.45a2,2,0,0,0,1.75-1l3.86-7L20.42,5l-3.87,7h-7L5.27,3H2V5H4l3.6,7.59L4.62,18H20V16H8ZM18,19a2,2,0,1,0,2,2A2,2,0,0,0,18,19ZM8,19a2,2,0,1,0,2,2A2,2,0,0,0,8,19Zm4-9h2V7h3V5H14V2H12V5H9V7h3Z"/>
+  </g>
+</svg>

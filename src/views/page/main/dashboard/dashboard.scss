@@ -1,0 +1,124 @@
+@import "src/style/base/variables";
+@import "src/style/base/mixins";
+
+.container {
+    // height: 100%;
+    height: calc(100% - 48px);
+}
+
+.app-info-wrapper {
+    height: 100%;
+    .app-info {
+        margin-top: 24px !important;
+        padding: 16px;
+    }
+}
+
+.app-info {
+    margin-bottom: 24px;
+    background: #FFF;
+    // padding: 16px;
+    width: 100%;
+
+    .title {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 20px;
+        color: #000000;
+        margin-bottom: 16px;
+
+        &:before {
+            content: '';
+            width: 4px;
+            border-left-width: 4px;
+            border-left-style: solid;
+            border-left-color: #1C4CE4;
+            padding-left: 8px;
+        }
+    }
+
+    .desc {
+        // label {
+        //     display: inline-block;
+        //     font-size: $font-size-title;
+        //     line-height: 24px;
+        //     color: rgba(0, 0, 0, 0.88);
+
+        //     &:not(:last-child) {
+        //         margin-right: 48px;
+        //     }
+        // }
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .desc-item {
+            margin-bottom: 12px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            .desc-label {
+                width: 72px;
+                font-size: 14px;
+                line-height: 14px;
+                color: #262729;
+            }
+
+            .desc-label {
+                font-size: 14px;
+                line-height: 14px;
+                color: #000000;
+            }
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+
+
+    }
+}
+
+.app-content {
+    margin-top: 24px;
+    height: 326px;
+
+
+    .app-content-right {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .section {
+        background: #FFF;
+        padding: 16px;
+        margin-bottom: 16px;
+        border-radius: 4px 0px 0px 4px;
+
+        &:last-child {
+            padding-left: 0;
+        }
+    }
+
+    .section-right {
+        height: 326px;
+        border-radius: 0px 4px 4px 0px;
+        background: #FFF;
+        margin-bottom: 16px;
+        padding: 16px 0px;
+    }
+}
+
+.dynamic-pagination {
+    .el-pagination {
+        text-align: center;
+        background: #FFF;
+        padding: 10px 0px !important;
+    }
+}

@@ -1,0 +1,222 @@
+@import "src/style/base/variables";
+@import "src/style/base/mixins";
+
+.dynamic-content {
+    .dynamic-title {
+        width: 100%;
+        height: 28px;
+        margin-bottom: 12px;
+        margin-top: 16px;
+        padding: 0 16px 0 16px;
+
+        .dynamic-title-text {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 28px;
+            color: rgba(0, 0, 0, 0.88);
+            float: left;
+
+            &:before {
+                content: '';
+                width: 4px;
+                border-left-width: 4px;
+                border-left-style: solid;
+                border-left-color: #1C4CE4;
+                padding-left: 8px;
+            }
+        }
+
+        .dynamic-title-link {
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(28, 76, 228, 1);
+            cursor: pointer;
+            float: right;
+        }
+    }
+
+    .dynamic-col {
+        width: 50%;
+        margin-bottom: 16px;
+
+        // &:nth-last-of-type(2n) {
+        //     .dynamic-box {
+        //         margin-right: 0 !important;
+        //     }
+        // }
+        &:nth-of-type(2n) {
+            .dynamic-box {
+                margin-right: 0 !important;
+            }
+        }
+
+        .dynamic-box {
+            padding: 16px;
+            margin-right: 16px;
+            background: #FFF;
+            cursor: pointer;
+            border-radius: 4px;
+
+            &:hover {
+                box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.12), 0px 5px 12px 4px rgba(0, 0, 0, 0.09);
+            }
+
+            .dynamic-box-title,
+            .dynamic-box-money,
+            .dynamic-box-content,
+            .progress {
+                width: 100%;
+            }
+
+            .dynamic-box-title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                span {
+                    font-size: $font-size-title;
+                    font-weight: bold;
+                    line-height: 24px;
+                    color: rgba(0, 0, 0, 0.88);
+                    display: inline-block;
+                    max-width: 95%;
+                    @include ellipsis;
+                }
+
+                .title-icon {
+                    width: 60px;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    font-size: $font-size-title;
+                    font-weight: bold;
+                    line-height: 24px;
+                    color: rgba(232, 104, 74, 1);
+                }
+            }
+
+            .dynamic-box-money {
+                display: flex;
+                flex-flow: row nowrap;
+                align-content: flex-start;
+                margin: 12px 0 20px 0;
+
+                .money {
+                    label {
+                        font-size: $font-size-base;
+                        line-height: 22px;
+                        color: rgba(0, 0, 0, 0.88);
+
+                        &:first-child {
+                            margin-right: 16px;
+                        }
+
+                        &:last-child {
+                            margin-right: 48px;
+                            color: rgba(0, 0, 0, 0.68);
+                        }
+                    }
+                }
+            }
+
+            .dynamic-box-content {
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                margin-bottom: 20px;
+
+                .detail {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    align-content: flex-start;
+                    width: 50%;
+
+                    .detail-label {
+                        width: 24px;
+                        height: 54px;
+                        border: 1px solid rgba(198, 240, 175, 1);
+                        background: rgba(248, 255, 243, 1);
+                        text-align: center;
+
+                        span {
+                            display: inline-flex;
+                            align-items: center;
+                            width: 12px;
+                            height: 100%;
+                            font-size: 12px;
+                            line-height: 14px;
+                            color: rgba(75, 184, 16, 1);
+                        }
+                    }
+
+                    &:last-child {
+                        .detail-label {
+                            border-color: rgba(118, 177, 254, 1);
+                            background: rgba(248, 251, 254, 1);
+
+                            span {
+                                color: rgba(0, 110, 255, 1);
+                            }
+                        }
+                    }
+
+                    .detail-board {
+                        width: 90%;
+                        margin-left: 10px;
+                        padding: 5px 0;
+
+                        .warning-label {
+                            label {
+                                color: #FA6114 !important;
+                            }
+                        }
+
+                        .board-content {
+                            width: 100%;
+
+                            &:first-child {
+                                margin-bottom: 12px;
+                            }
+
+                            label {
+                                display: inline-block;
+                                line-height: 14px;
+
+                                &:first-child {
+                                    width: 100px;
+                                    color: #000000;
+                                }
+
+                                &:last-child {
+                                    color: #000000;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .progress {
+            margin-bottom: 10px;
+        }
+    }
+
+    .dynamic-empty {
+        background: #FFF;
+        text-align: center;
+        padding: 32px 0;
+
+        img {
+            width: 96px;
+            height: 96px;
+        }
+
+        label {
+            display: inline-block;
+            width: 100%;
+            color: rgba(0, 0, 0, 0.68);
+            line-height: 22px;
+        }
+    }
+}

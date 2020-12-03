@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 12 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #9e9e9e;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path class="cls-1" d="M-129-349h-8v-2h6v-14h-18v14h6v2h-8v-18h22Zm-11-13,4,4h-3v9h-2v-9h-3Zm9,13h-6v-2h6v-14h-18v14h6v2h-6a2,2,0,0,1-2-2v-14a2,2,0,0,1,2-2h18a2,2,0,0,1,2,2v14A2,2,0,0,1-131-349Zm-9-13,4,4h-3v9h-2v-9h-3Z"/>
+    </clipPath>
+  </defs>
+  <title>Icon - 切换 -12 副本</title>
+  <g id="系统图标">
+    <g>
+      <polygon class="cls-3" points="1 8 6 8 6 10.23 11 7 1 7 1 8"/>
+      <polygon class="cls-3" points="6 4 6 1.77 1 5 11 5 11 4 6 4"/>
+    </g>
+  </g>
+</svg>

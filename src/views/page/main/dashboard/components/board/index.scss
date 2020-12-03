@@ -1,0 +1,119 @@
+@import "src/style/base/variables";
+
+.board-content {
+    padding: 16px;
+    background: #FFF;
+    margin-right: 16px;
+    height: 300px;
+    border-radius: 4px;
+
+    .board-title {
+        width: 100%;
+        height: 20px;
+        margin-bottom: 20px;
+
+        .board-title-text {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 20px;
+            color: #000000;
+            float: left;
+
+            div {
+                &:before {
+                    content: '';
+                    width: 4px;
+                    border-left-width: 4px;
+                    border-left-style: solid;
+                    border-left-color: #1C4CE4;
+                    padding-left: 8px;
+                }
+            }
+        }
+
+        .board-title-link {
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(28, 76, 228, 1);
+            cursor: pointer;
+            float: right;
+        }
+    }
+
+    .board-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        width: 100%;
+        height: calc(100% - 40px);
+    }
+
+    .board-box {
+        width: 25%;
+
+        &:nth-of-type(1n) {
+            .board-box-icon {
+                color: #019BF8;
+            }
+        }
+
+        &:nth-of-type(2n) {
+            .board-box-icon {
+                color: #F57174;
+            }
+        }
+
+        &:nth-of-type(3n) {
+            .board-box-icon {
+                color: #FCB824;
+            }
+        }
+
+        &:nth-of-type(4n) {
+            .board-box-icon {
+                color: #11A0AD;
+            }
+        }
+
+        .board-box-icon {
+            font-size: 16px;
+            margin-right: 4px;
+        }
+
+        // &:nth-of-type(3),
+        // &:nth-of-type(4) {
+        //     margin-top: 24px;
+        // }
+
+        // &:nth-of-type(4n) {
+        //     margin-bottom: 35px;
+        // }
+
+        // &:last-of-type {
+        //     margin-bottom: 0 !important;
+        // }
+
+        .board-box-text {
+            font-size: $font-size-base;
+            line-height: 22px;
+            color: #4E5052;
+            margin-bottom: 4px;
+        }
+
+        .board-box-count {
+            font-size: 20px;
+            color: #000000;
+            line-height: 20px;
+
+            .board-box-count-pattern {
+                font-size: 14px;
+            }
+
+            .count-to:hover {
+                // cursor: pointer;
+                // text-decoration: underline;
+            }
+        }
+    }
+}

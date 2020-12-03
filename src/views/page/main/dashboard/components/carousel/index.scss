@@ -1,0 +1,85 @@
+@import "src/style/base/variables";
+
+.carousel-content {
+    height: 294px;
+
+    .carousel-title {
+        position: absolute;
+        width: 619px;
+        height: 100%;
+        // top: 44px;
+        // left: 32px;
+        // bottom: 52px;
+        // right: 45px;
+        // background: url('/static/dashboard-bg-1-text.png') no-repeat;
+        // background-size: 100% 100%;
+        z-index: 10;
+    }
+
+    .carousel-text-img {
+        margin: 36px 0 0 30px;
+    }
+
+    .carousel-panel {
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+        background-size: cover;
+    }
+
+
+    .carousel-qrcode {
+        position: absolute;
+        right: 32px;
+        bottom: 32px;
+        width: 114px;
+        height: auto;
+        z-index: 11;
+        background-size: 100% 100%;
+
+        .img {
+            width: 100%;
+            height: auto;
+        }
+
+        .corner-btn {
+            width: 96px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            border: 1px solid #fff;
+            background: rgba($color: #fff, $alpha: 0.2);
+            // border-radius: 5px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+
+    /deep/ .el-carousel__indicators--horizontal {
+        left: 70px !important;
+    }
+
+    // // 只有一张图 先设置隐藏，有多张需要轮播时再打开
+    // /deep/ .el-carousel__indicators {
+    //     display: none;
+    // }
+
+    // /deep/ .el-carousel__container:hover {
+    //     .el-carousel__arrow {
+    //         display: none;
+    //     }
+    // }
+
+    /deep/ .el-carousel__container {
+        // border-radius: 15px;
+        overflow: hidden;
+
+        .el-carousel__arrow {
+            display: none;
+        }
+    }
+}

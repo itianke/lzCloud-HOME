@@ -1,0 +1,80 @@
+// 全局变量
+$color-main: 			#000E29;	// 全局主题色
+
+//-- 字体色
+$color-font-main:       #000000;  // 主字体色
+$color-font-sub:        #8d8d8d;  // 次要字体色
+
+//-- 元素色
+$color-white: 			#fff;		// 白
+$color-grey-light: 		#4D5052;	// 浅灰
+$color-grey:            #707070;    // 灰
+$color-grey-dark: 		#585f6f;	// 深灰
+$color-black:           #000;       // 黑
+$color-red: 			#eb2f18;	// 红
+$color-blue: 			#1C4CE4;	// 蓝
+$color-success:         #209e35;    /*功能色-正确状态*/
+$color-warning:         #e54409;    /*功能色-警告状态*/
+$color-danger:          #d40000;    /*功能色-危险状态*/
+$color-info:            #58595c;    /*功能色-提示状态*/
+$color-primary:         #155bd4;    /*主题色*/
+$color-text-regular:    #262729;    // 二级文本
+$color-text-secondary:   #73777a;    // 三级文本
+$menu-active-color:     #333E54;    // 服务菜单选中颜色
+$menu-hover-color:      #243047;    // 服务菜单选中颜色
+$main-color:            #155BD4;    // 文案主题色
+
+//-- 边框色
+$border-grey:           #909399;
+$border-line:           #CED3DB;
+
+//-- 背景色
+$background-color:      #FFF;
+$button-plain-bg:       #DCDEE0;    // 按钮朴素背景色
+
+//-- 基础字体大小
+$font-size-small:		12px;
+$font-size-base:		14px;	
+$font-size-title:		16px;
+$font-size-large:		18px;
+$font-size-large-big:	22px;
+$font-size-large-title:	24px;
+
+// -- 行高
+$line-height-mini:      14px;
+$line-height-small:     16px;
+$line-height-normal:    24px;
+$line-height-big:       36px;
+$line-height-large:     48px;
+
+// 字体粗细
+$font-bold:             bold;
+$font-normal:           400;
+$font-medium:           500;
+$font-light:            300;
+$font-thin:             100;
+
+// 布局
+$align-center:          center;         
+$align-left:            left;         
+$align-right:           right;         
+
+// 字体图片大小
+$icon-size-base:        16px;
+$icon-size-normal:      20px;
+$icon-size-large:       32px;
+
+// 圆角
+$border-radius-base:    4px;
+// 按钮高度
+$button-height:         32px;
+// 页面详情
+$page-title-font:       20px;
+$page-title-height:     48px;
+// 步骤条样式
+$step-size:             24px;
+// 字体"Tahoma", 
+$font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+
+// 字体"Tahoma", 
+$font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",  "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
